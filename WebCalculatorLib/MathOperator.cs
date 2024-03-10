@@ -2,9 +2,9 @@
 
 public class MathOperator
 {
-    public string num1;
-    public string num2;
-    public string finalresult;
+    public string? num1;
+    public string? num2;
+    public string? finalresult;
     public void AddNumbers()
     {
         finalresult = (Convert.ToDouble(num1) + Convert.ToDouble(num2)).ToString();

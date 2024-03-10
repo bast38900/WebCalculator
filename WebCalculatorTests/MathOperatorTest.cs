@@ -1,5 +1,3 @@
-using WebCalculatorLib;
-
 namespace WebCalculatorTests
 {
     public class MathOperatorTest
