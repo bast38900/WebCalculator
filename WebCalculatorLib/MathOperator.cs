@@ -28,4 +28,19 @@ public class MathOperator
             finalresult = "Cannot Divide by Zero";
         }
     }
+
+    public void ModulusNumbers()
+    {
+        finalresult = (Convert.ToDouble(num1) % Convert.ToDouble(num2)).ToString();
+    }
+
+    public void PowerNumbers()
+    {
+        finalresult = Math.Pow(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
+    }
+
+    public void SquareRootNumber()
+    {
+        finalresult = Math.Sqrt(Convert.ToDouble(num1)).ToString();
+    }
 }

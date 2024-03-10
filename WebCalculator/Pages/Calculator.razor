@@ -46,6 +46,18 @@
             <button @onclick="DivideNumbers" class="btn btn-info">Divide (/)</button>
         </div>
     </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">
+            <button @onclick="ModulusNumbers" class="btn btn-light">Modulus (%)</button>
+        </div>
+        <div class="col-md-2">
+            <button @onclick="PowerNumbers" class="btn btn-primary">Power (^)</button>
+        </div>
+        <div class="col-md-2">
+            <button @onclick="SquareRootNumber" class="btn btn-success ">Square root (√)</button>
+        </div>
+    </div>
 </div>
 
 @code {
@@ -74,5 +86,20 @@
         {
             finalresult = "Cannot Divide by Zero";
         }
+    }
+
+    void ModulusNumbers()
+    {
+        finalresult = (Convert.ToDouble(num1) % Convert.ToDouble(num2)).ToString();
+    }
+
+    void PowerNumbers()
+    {
+        finalresult = Math.Pow(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
+    }
+
+    void SquareRootNumber()
+    {
+        finalresult = Math.Sqrt(Convert.ToDouble(num1)).ToString();
     }
 }
