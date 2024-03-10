@@ -1,9 +1,9 @@
 namespace WebCalculatorTests;
 
-public class UnitTest1
+public class MathOperatorTest
 {
     [Fact]
-    public void Test1()
+    public void AddNumbersTest()
     {
 
     }

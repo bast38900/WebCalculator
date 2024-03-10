@@ -1,0 +1,11 @@
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/bin/Debug/net7.0/WebCalculatorLib.deps.json
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/bin/Debug/net7.0/WebCalculatorLib.dll
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/bin/Debug/net7.0/WebCalculatorLib.pdb
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/obj/Debug/net7.0/WebCalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/obj/Debug/net7.0/WebCalculatorLib.AssemblyInfoInputs.cache
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/obj/Debug/net7.0/WebCalculatorLib.AssemblyInfo.cs
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/obj/Debug/net7.0/WebCalculatorLib.csproj.CoreCompileInputs.cache
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/obj/Debug/net7.0/WebCalculatorLib.dll
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/obj/Debug/net7.0/refint/WebCalculatorLib.dll
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/obj/Debug/net7.0/WebCalculatorLib.pdb
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/obj/Debug/net7.0/ref/WebCalculatorLib.dll
