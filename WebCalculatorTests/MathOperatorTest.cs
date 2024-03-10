@@ -1,10 +1,19 @@
-namespace WebCalculatorTests;
+using WebCalculatorLib;
 
-public class MathOperatorTest
+namespace WebCalculatorTests
 {
-    [Fact]
-    public void AddNumbersTest()
+    public class MathOperatorTest
     {
-
+        [Fact]
+        public void AddNumbersTest()
+        {
+            var mathOperator = new MathOperator
+            {
+                num1 = "1",
+                num2 = "2"
+            };
+            mathOperator.AddNumbers();
+            Assert.Equal("3", mathOperator.finalresult);
+        }
     }
 }

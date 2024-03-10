@@ -2,22 +2,22 @@
 
 public class MathOperator
 {
-    string num1;
-    string num2;
-    string finalresult;
-    void AddNumbers()
+    public string num1;
+    public string num2;
+    public string finalresult;
+    public void AddNumbers()
     {
         finalresult = (Convert.ToDouble(num1) + Convert.ToDouble(num2)).ToString();
     }
-    void SubtractNumbers()
+    public void SubtractNumbers()
     {
         finalresult = (Convert.ToDouble(num1) - Convert.ToDouble(num2)).ToString();
     }
-    void MultiplyNumbers()
+    public void MultiplyNumbers()
     {
         finalresult = (Convert.ToDouble(num1) * Convert.ToDouble(num2)).ToString();
     }
-    void DivideNumbers()
+    public void DivideNumbers()
     {
         if (Convert.ToDouble(num2) != 0)
         {
