@@ -1,5 +1,8 @@
 namespace WebCalculatorTests
 {
+    ///
+    /// This class contains unit tests for the MathOperator class.
+    /// 
     public class MathOperatorTest
     {
         [Fact]
@@ -47,7 +50,7 @@ namespace WebCalculatorTests
             Assert.Equal("1", mathOperator.finalresult);
         }
 
-                [Fact]
+        [Fact]
         public void SubtractNumbersTest_Fail()
         {
             // Arrange
