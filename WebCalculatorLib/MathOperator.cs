@@ -2,7 +2,7 @@
 
 ///
 /// Represents a calculator that performs various mathematical operations.
-/// 
+///
 public class MathOperator
 {
     /// Adds the two numbers

@@ -66,24 +66,28 @@
     string? num2;
     string? finalresult;
 
-    MathOperator mathOperator = new MathOperator();
+    BasicMathOperator basicMathOperator = new BasicMathOperator();
+
+    AdvancedMathOperator advancedMathOperator = new AdvancedMathOperator();
+
+
     void AddNumbers()
     {
-        finalresult = mathOperator.Add(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
+        finalresult = basicMathOperator.Add(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
     }
     void SubtractNumbers()
     {
-        finalresult = mathOperator.Subtract(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
+        finalresult = basicMathOperator.Subtract(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
     }
     void MultiplyNumbers()
     {
-        finalresult = mathOperator.Multiply(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
+        finalresult = basicMathOperator.Multiply(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
     }
     void DivideNumbers()
     {
         if (Convert.ToDouble(num2) != 0)
         {
-            finalresult = mathOperator.Divide(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
+            finalresult = basicMathOperator.Divide(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
         }
         else
         {
@@ -93,16 +97,16 @@
 
     void ModulusNumbers()
     {
-        finalresult = mathOperator.Modulus(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
+        finalresult = advancedMathOperator.Modulus(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
     }
 
     void PowerNumbers()
     {
-        finalresult = mathOperator.Power(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
+        finalresult = advancedMathOperator.Power(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
     }
 
     void SquareRootNumber()
     {
-;       finalresult = mathOperator.SquareRoot(Convert.ToDouble(num1)).ToString();
+;       finalresult = advancedMathOperator.SquareRoot(Convert.ToDouble(num1)).ToString();
     }
 }
