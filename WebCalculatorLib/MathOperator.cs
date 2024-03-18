@@ -1,13 +1,11 @@
 ﻿namespace WebCalculatorLib;
 
 ///
-/// Represents a math operator that performs various mathematical operations.
+/// Represents a calculator that performs various mathematical operations.
 /// 
 public class MathOperator
 {
-    /// 
     /// Adds the two numbers
-    ///
     public double Add(double a, double b)
     {
         return a + b;
@@ -31,27 +29,21 @@ public class MathOperator
         return a / b;
     }
 
-    // ///
-    // /// Calculates the modulus of the first number divided by the second number and stores the result in the <see cref="finalresult"/> property.
-    // ///
-    // public void ModulusNumbers()
-    // {
-    //     finalresult = (Convert.ToDouble(num1) % Convert.ToDouble(num2)).ToString();
-    // }
+    /// Calculates the modulus of the two numbers
+    public double Modulus(double a, double b)
+    {
+        return a % b;
+    }
 
-    // /// 
-    // /// Raises the first number to the power of the second number and stores the result in the <see cref="finalresult"/> property.
-    // ///
-    // public void PowerNumbers()
-    // {
-    //     finalresult = Math.Pow(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
-    // }
+    /// Raises the first number to the power of the second number
+    public double Power(double a, double b)
+    {
+        return Math.Pow(a, b);
+    }
 
-    // /// 
-    // /// Calculates the square root of the first number and stores the result in the <see cref="finalresult"/> property.
-    // ///
-    // public void SquareRootNumber()
-    // {
-    //     finalresult = Math.Sqrt(Convert.ToDouble(num1)).ToString();
-    // }
+    /// Calculates the square root of the first number
+    public double SquareRoot(double a)
+    {
+        return Math.Sqrt(a);
+    }
 }

@@ -198,15 +198,15 @@
       "mscorlib.dll": "sha256-7yxnoj0sx\/xIMKjSCkfYzaeQKDj1UsUSr\/JXW7fRggs=",
       "netstandard.dll": "sha256-c9xgB5oQro5\/rBTTHeD+4cqLi9QOB+6fhaP3jmkeGo4=",
       "System.Private.CoreLib.dll": "sha256-FGXoQzMt7mcWfUZbWXoXgg8tPIt7PF+QZoXXBQWegAQ=",
-      "WebCalculatorLib.dll": "sha256-ayp4TIFDJJOEPyOSd6I7+DwyfwkY8gd2qQVk72JnF18=",
-      "WebCalculator.dll": "sha256-iJHhHrKJIfx+IA49EBLED0tz6bkWE4FsexSSpfkQc3k="
+      "WebCalculatorLib.dll": "sha256-I84ZaPwAopV4U7dVdTEQb9FcjWOkg3HsVBlmxD7ju9c=",
+      "WebCalculator.dll": "sha256-7DJ0S5SF1c7k4t++EZk5AD21CbBuHVXcuXMrRKQnZIM="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "WebCalculatorLib.pdb": "sha256-l+ZzeDjdwG7mQiYspZnJzkBZtA1NAbQNzLMeT7QtjNE=",
-      "WebCalculator.pdb": "sha256-X2YjMaDmzMgd1e2p+Dva2F7LTQJXxA8q\/gwWcn4uNJ0="
+      "WebCalculatorLib.pdb": "sha256-\/LgxVEiEa6eTrgfQEyFX6JJ+nsbs\/CYqAlrMcKNaF\/M=",
+      "WebCalculator.pdb": "sha256-0SeNrlds0rnycfHTP7o5\/ax7Yi1KgwoFwNWTLj0Yln0="
     },
     "runtime": {
       "dotnet.7.0.16.j7uaprnjv7.js": "sha256-4BiArKugJJtpQrznGF5zWfmJ2TB98+p6rKsyoqhtMk4=",

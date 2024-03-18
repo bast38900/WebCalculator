@@ -62,11 +62,11 @@
 </div>
 
 @code {
-    MathOperator mathOperator = new MathOperator();
-
     string? num1;
     string? num2;
     string? finalresult;
+
+    MathOperator mathOperator = new MathOperator();
     void AddNumbers()
     {
         finalresult = mathOperator.Add(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
@@ -93,16 +93,16 @@
 
     void ModulusNumbers()
     {
-        finalresult = (Convert.ToDouble(num1) % Convert.ToDouble(num2)).ToString();
+        finalresult = mathOperator.Modulus(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
     }
 
     void PowerNumbers()
     {
-        finalresult = Math.Pow(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
+        finalresult = mathOperator.Power(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
     }
 
     void SquareRootNumber()
     {
-        finalresult = Math.Sqrt(Convert.ToDouble(num1)).ToString();
+;       finalresult = mathOperator.SquareRoot(Convert.ToDouble(num1)).ToString();
     }
 }
