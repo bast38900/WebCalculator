@@ -9,220 +9,197 @@ namespace WebCalculatorTests
         public void AddNumbersTest_Success()
         {
             // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "1",
-                num2 = "2"
-            };
+            var mathOperator = new MathOperator();
+
             // Act
-            mathOperator.AddNumbers();
+            var result = mathOperator.Add(1, 2);
+
             // Assert
-            Assert.Equal("3", mathOperator.finalresult);
+            Assert.Equal(3, result);
         }
 
         [Fact]
         public void AddNumbersTest_Fail()
         {
             // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "2",
-                num2 = "2"
-            };
+            var mathOperator = new MathOperator();
+
             // Act
-            mathOperator.AddNumbers();
+            var result = mathOperator.Add(1, 4);
             // Assert
-            Assert.NotEqual("3", mathOperator.finalresult);
+            Assert.NotEqual(3, result);
         }
 
         [Fact]
         public void SubtractNumbersTest_Success()
         {
             // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "3",
-                num2 = "2"
-            };
+            var mathOperator = new MathOperator();
+
             // Act
-            mathOperator.SubtractNumbers();
+            var result = mathOperator.Subtract(4, 3);
             // Assert
-            Assert.Equal("1", mathOperator.finalresult);
+            Assert.Equal(1, result);
         }
 
         [Fact]
         public void SubtractNumbersTest_Fail()
         {
             // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "3",
-                num2 = "3"
-            };
+            var mathOperator = new MathOperator();
+
             // Act
-            mathOperator.SubtractNumbers();
+            var result = mathOperator.Subtract(4, 2);
             // Assert
-            Assert.NotEqual("1", mathOperator.finalresult);
+            Assert.NotEqual(1, result);
         }
 
         [Fact]
         public void MultiplyNumbersTest_Success()
         {
             // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "3",
-                num2 = "2"
-            };
+            var mathOperator = new MathOperator();
+
             // Act
-            mathOperator.MultiplyNumbers();
+            var result = mathOperator.Multiply(4, 3);
             // Assert
-            Assert.Equal("6", mathOperator.finalresult);
+            Assert.Equal(12, result);
         }
 
         [Fact]
         public void MultiplyNumbersTest_Fail()
         {
             // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "2",
-                num2 = "2"
-            };
+            var mathOperator = new MathOperator();
+
             // Act
-            mathOperator.MultiplyNumbers();
+            var result = mathOperator.Multiply(4, 3);
             // Assert
-            Assert.NotEqual("6", mathOperator.finalresult);
+            Assert.NotEqual(10, result);
         }
 
         [Fact]
         public void DivideNumbersTest_Success()
         {
             // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "6",
-                num2 = "2"
-            };
+            var mathOperator = new MathOperator();
+
             // Act
-            mathOperator.DivideNumbers();
+            var result = mathOperator.Divide(4, 2);
             // Assert
-            Assert.Equal("3", mathOperator.finalresult);
+            Assert.Equal(2, result);
         }
 
         [Fact]
         public void DivideNumbersTest_Fail()
         {
             // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "6",
-                num2 = "6"
-            };
+            var mathOperator = new MathOperator();
+
             // Act
-            mathOperator.DivideNumbers();
+            var result = mathOperator.Divide(6, 2);
             // Assert
-            Assert.NotEqual("3", mathOperator.finalresult);
+            Assert.NotEqual(2, result);
         }
 
-        [Fact]
-        public void SquareRootNumberTest_Success()
-        {
-            // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "16"
-            };
+        // [Fact]
+        // public void SquareRootNumberTest_Success()
+        // {
+        //     // Arrange
+        //     var mathOperator = new MathOperator
+        //     {
+        //         num1 = "16"
+        //     };
             
-            // Act
-            mathOperator.SquareRootNumber();
+        //     // Act
+        //     mathOperator.SquareRootNumber();
             
-            // Assert
-            Assert.Equal("4", mathOperator.finalresult);
-        }
+        //     // Assert
+        //     Assert.Equal("4", mathOperator.finalresult);
+        // }
 
-        [Fact]
-        public void SquareRootNumberTest_Fail()
-        {
-            // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "16"
-            };
+        // [Fact]
+        // public void SquareRootNumberTest_Fail()
+        // {
+        //     // Arrange
+        //     var mathOperator = new MathOperator
+        //     {
+        //         num1 = "16"
+        //     };
             
-            // Act
-            mathOperator.SquareRootNumber();
+        //     // Act
+        //     mathOperator.SquareRootNumber();
             
-            // Assert
-            Assert.Equal("4", mathOperator.finalresult);
-        }
+        //     // Assert
+        //     Assert.Equal("4", mathOperator.finalresult);
+        // }
 
-        [Fact]
-        public void ModulusNumbersTest_Success()
-        {
-            // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "5",
-                num2 = "2"
-            };
+        // [Fact]
+        // public void ModulusNumbersTest_Success()
+        // {
+        //     // Arrange
+        //     var mathOperator = new MathOperator
+        //     {
+        //         num1 = "5",
+        //         num2 = "2"
+        //     };
             
-            // Act
-            mathOperator.ModulusNumbers();
+        //     // Act
+        //     mathOperator.ModulusNumbers();
             
-            // Assert
-            Assert.Equal("1", mathOperator.finalresult);
-        }
+        //     // Assert
+        //     Assert.Equal("1", mathOperator.finalresult);
+        // }
 
-        [Fact]
-        public void ModulusNumbersTest_Fail()
-        {
-            // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "7",
-                num2 = "3"
-            };
+        // [Fact]
+        // public void ModulusNumbersTest_Fail()
+        // {
+        //     // Arrange
+        //     var mathOperator = new MathOperator
+        //     {
+        //         num1 = "7",
+        //         num2 = "3"
+        //     };
             
-            // Act
-            mathOperator.ModulusNumbers();
+        //     // Act
+        //     mathOperator.ModulusNumbers();
             
-            // Assert
-            Assert.NotEqual("2", mathOperator.finalresult);
-        }
+        //     // Assert
+        //     Assert.NotEqual("2", mathOperator.finalresult);
+        // }
 
-        [Fact]
-        public void PowerNumbersTest_Success()
-        {
-            // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "2",
-                num2 = "3"
-            };
+        // [Fact]
+        // public void PowerNumbersTest_Success()
+        // {
+        //     // Arrange
+        //     var mathOperator = new MathOperator
+        //     {
+        //         num1 = "2",
+        //         num2 = "3"
+        //     };
             
-            // Act
-            mathOperator.PowerNumbers();
+        //     // Act
+        //     mathOperator.PowerNumbers();
             
-            // Assert
-            Assert.Equal("8", mathOperator.finalresult);
-        }
+        //     // Assert
+        //     Assert.Equal("8", mathOperator.finalresult);
+        // }
 
-        [Fact]
-        public void PowerNumbersTest_Fail()
-        {
-            // Arrange
-            var mathOperator = new MathOperator
-            {
-                num1 = "2",
-                num2 = "4"
-            };
+        // [Fact]
+        // public void PowerNumbersTest_Fail()
+        // {
+        //     // Arrange
+        //     var mathOperator = new MathOperator
+        //     {
+        //         num1 = "2",
+        //         num2 = "4"
+        //     };
             
-            // Act
-            mathOperator.PowerNumbers();
+        //     // Act
+        //     mathOperator.PowerNumbers();
             
-            // Assert
-            Assert.NotEqual("8", mathOperator.finalresult);
-        }
+        //     // Assert
+        //     Assert.NotEqual("8", mathOperator.finalresult);
+        // }
     }
 }

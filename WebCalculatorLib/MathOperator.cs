@@ -5,71 +5,53 @@
 /// 
 public class MathOperator
 {
-    public string? num1;
-    public string? num2;
-    public string? finalresult;
-
     /// 
-    /// Adds the two numbers and stores the result in the <see cref="finalresult"/> property.
+    /// Adds the two numbers
     ///
-    public void AddNumbers()
+    public double Add(double a, double b)
     {
-        finalresult = (Convert.ToDouble(num1) + Convert.ToDouble(num2)).ToString();
+        return a + b;
     }
 
-    /// 
-    /// Subtracts the second number from the first number and stores the result in the <see cref="finalresult"/> property.
-    /// 
-    public void SubtractNumbers()
+    // Method to subtract two numbers
+    public double Subtract(double a, double b)
     {
-        finalresult = (Convert.ToDouble(num1) - Convert.ToDouble(num2)).ToString();
+        return a - b;
     }
 
-    /// 
-    /// Multiplies the two numbers and stores the result in the <see cref="finalresult"/> property.
-    /// 
-    public void MultiplyNumbers()
+    // Method to multiply two numbers
+    public double Multiply(double a, double b)
     {
-        finalresult = (Convert.ToDouble(num1) * Convert.ToDouble(num2)).ToString();
+        return a * b;
     }
 
-    /// 
-    /// Divides the first number by the second number and stores the result in the <see cref="finalresult"/> property.
-    /// If the second number is zero, sets the <see cref="finalresult"/> property to "Cannot Divide by Zero".
-    /// 
-    public void DivideNumbers()
+    // Method to divide two numbers
+    public double Divide(double a, double b)
     {
-        if (Convert.ToDouble(num2) != 0)
-        {
-            finalresult = (Convert.ToDouble(num1) / Convert.ToDouble(num2)).ToString();
-        }
-        else
-        {
-            finalresult = "Cannot Divide by Zero";
-        }
+        return a / b;
     }
 
-    ///
-    /// Calculates the modulus of the first number divided by the second number and stores the result in the <see cref="finalresult"/> property.
-    ///
-    public void ModulusNumbers()
-    {
-        finalresult = (Convert.ToDouble(num1) % Convert.ToDouble(num2)).ToString();
-    }
+    // ///
+    // /// Calculates the modulus of the first number divided by the second number and stores the result in the <see cref="finalresult"/> property.
+    // ///
+    // public void ModulusNumbers()
+    // {
+    //     finalresult = (Convert.ToDouble(num1) % Convert.ToDouble(num2)).ToString();
+    // }
 
-    /// 
-    /// Raises the first number to the power of the second number and stores the result in the <see cref="finalresult"/> property.
-    ///
-    public void PowerNumbers()
-    {
-        finalresult = Math.Pow(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
-    }
+    // /// 
+    // /// Raises the first number to the power of the second number and stores the result in the <see cref="finalresult"/> property.
+    // ///
+    // public void PowerNumbers()
+    // {
+    //     finalresult = Math.Pow(Convert.ToDouble(num1), Convert.ToDouble(num2)).ToString();
+    // }
 
-    /// 
-    /// Calculates the square root of the first number and stores the result in the <see cref="finalresult"/> property.
-    ///
-    public void SquareRootNumber()
-    {
-        finalresult = Math.Sqrt(Convert.ToDouble(num1)).ToString();
-    }
+    // /// 
+    // /// Calculates the square root of the first number and stores the result in the <see cref="finalresult"/> property.
+    // ///
+    // public void SquareRootNumber()
+    // {
+    //     finalresult = Math.Sqrt(Convert.ToDouble(num1)).ToString();
+    // }
 }
