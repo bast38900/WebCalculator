@@ -7,7 +7,7 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/pentiam1pro/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/pentiam1pro/.nuget/packages/</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.7.1</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.9.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/Users/pentiam1pro/.nuget/packages/" />

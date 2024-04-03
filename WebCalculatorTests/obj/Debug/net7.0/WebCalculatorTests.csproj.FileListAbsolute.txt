@@ -93,9 +93,10 @@
 /Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/WebCalculatorTests.AssemblyInfoInputs.cache
 /Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/WebCalculatorTests.AssemblyInfo.cs
 /Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/WebCalculatorTests.csproj.CoreCompileInputs.cache
-/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/WebCalculatorTests.csproj.CopyComplete
 /Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/WebCalculatorTests.dll
 /Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/refint/WebCalculatorTests.dll
 /Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/WebCalculatorTests.pdb
 /Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/WebCalculatorTests.genruntimeconfig.cache
 /Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/ref/WebCalculatorTests.dll
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/WebCalculatorTests.sourcelink.json
+/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorTests/obj/Debug/net7.0/WebCalcu.5407AC96.Up2Date

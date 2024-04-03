@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wCEW3yo3/cq/InRvB3AHRCh7TLKSx3R8EVWNnCxoI0sFDSu64iI2Yr5/QHKbz+I28i831MGEXwNyZpS2FCLPvA==",
+  "dgSpecHash": "nILVoLNL3OV/zetFX1epvVgCsx/a3rmccQjWe87zPfy/rMcOsUFHwy62SBl1pZ1w/fChGXA0TNJxTH+DCumM3A==",
   "success": true,
   "projectFilePath": "/Users/pentiam1pro/projects/UCL/Software_kvalitet/WebCalculator/WebCalculatorLib/WebCalculatorLib.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/pentiam1pro/.nuget/packages/microsoft.netcore.app.ref/7.0.17/microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "/Users/pentiam1pro/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.17/microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
