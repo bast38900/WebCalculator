@@ -19,10 +19,10 @@ jobs:
           dotnet-version: 7.0.x
       
       - name: Restore dependencies
-        run: dotnet restore WebCalculator/WebCalculator/WebCalculator.csproj
+        run: dotnet restore WebCalculator/WebCalculator.csproj
       
       - name: Build
-        run: dotnet build WebCalculator/WebCalculator/WebCalculator.csproj --no-restore
+        run: dotnet build WebCalculator/WebCalculator.csproj --no-restore
       
       - name: Test
-        run: dotnet test WebCalculator/WebCalculator.sln --logger trx
+        run: dotnet test WebCalculator.sln --logger trx
